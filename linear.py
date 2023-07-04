@@ -2,7 +2,7 @@ import joblib
 import streamlit as st
 
 # Load the saved model
-model_path = r"C:\Users\Aashir\Desktop\app\linear_regression_model.joblib"
+model_path = "linear_regression_model.joblib"
 model = joblib.load(model_path)
 
 def predict_price(area):
